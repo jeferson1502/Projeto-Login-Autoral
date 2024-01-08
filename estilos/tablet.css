@@ -2,6 +2,7 @@
 
 section{
     width: 80vw;
+    overflow: hidden;
 }
 
 #lg{
@@ -24,6 +25,40 @@ div#login{
 
 div#singin{
     float: right;
+    background-image: url(../imagens/pattern003.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 50%;
+
+    transform: translateY(-100px);
+}
+
+#csingin{
+    transform: translateY(40%);
+}
+
+#csingin a, a > p{
+    color: white;
+}
+
+#singin p{
+    border: none;
+}
+
+.apagar{
+    font-size: 0;
+    color: white;
+}
+
+.apagar::after{
+    content: 'Novo por aqui?';
+    background-color: black;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
+#outros{
+    margin: 50px;
 }
 
 hr{
