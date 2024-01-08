@@ -24,7 +24,6 @@ body{
 
 main{
     display: block;
-    margin: auto;
 }
 
 section{
@@ -124,3 +123,16 @@ p{
 #singin a{
     text-decoration: none;
 }
+
+img.sing{
+    width: 8px;
+}
+
+div#outros > a{
+    position: relative;
+    transform: translateY(50px);
+}
+
+
+
+
