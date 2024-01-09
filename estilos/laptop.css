@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+#login > h1{
+    position: relative;
+    transform: translateX(25%);
+}
+
+form > p > input{
+    width: 150%;
+}
+
+form > input{
+    position: relative;
+    transform: translate(5%, -25%);
+    width: 140%;
+}
+
+a.apagar > p{
+    position: relative;
+    transform: translateX(-1%);
+    width: 140%;
+}

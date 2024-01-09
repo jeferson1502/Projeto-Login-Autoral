@@ -34,7 +34,8 @@ div#singin{
 }
 
 #csingin{
-    transform: translateY(110%);
+    transform: translateY(60vh);
+    color: white;
 }
 
 /*#csingin a > p{
@@ -62,9 +63,9 @@ form > input{
     text-shadow: 0px 0px 5px black;
 }*/
 
-#outros{
+/*#outros{
     margin: 50px;
-}
+}*/
 
 hr{
     display: none;
@@ -77,3 +78,11 @@ hr{
     line-height: 35px;
     transform: translateY(-100%);
 }*/
+
+#outros img{
+    border-radius: 50%;
+}
+
+#outros > a{
+    color: white;
+}

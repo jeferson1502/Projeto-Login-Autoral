@@ -82,14 +82,14 @@ form > input{
     font-weight: bold;
 }
 
-form > input:hover{
+/*form > input:hover{
     background-image: linear-gradient(to right, #490a74, #260a72);
     cursor: pointer;
 
     transform: translateY(-5px);
     transition-timing-function: ease-in-out;
     transition-duration: .25s;
-}
+}*/
 
 p{
     margin: 15px;
