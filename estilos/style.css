@@ -95,30 +95,34 @@ p{
     margin: 15px;
 }
 
-#singin p{
-    text-align: center;
-    margin-top: 10px;
-    padding-top: 8px;
-    font-size: 0.8em;
-    width: 83%;
+a.apagar > p{
+    position: relative;
     border: 1px solid #490a74;
-    border-radius: 15px;
+    width: 82%;
     margin-left: 23px;
-    height: 26px;
+    border-radius: 13px;
+    height: 27px;
+    padding-top: 5px;
+    transform: translateX(2px);
+}
+
+a.apagar{
+    text-decoration: none;
+    font-size: 12px;
 }
 
 #singin > a > p{
     color: black;
 }
 
-#singin p:hover{
+/*.apagar p:hover{
     background-color: #490a74;
     color: white;   
 
     transform: translateY(-5px);
     transition-duration: .25s;
     transition-timing-function: ease-in-out;
-}
+}*/
 
 #singin a{
     text-decoration: none;
@@ -128,9 +132,26 @@ img.sing{
     width: 8px;
 }
 
-div#outros > a{
+/*div#outros > a{
     position: relative;
     transform: translateY(50px);
+}*/
+
+.apagar{
+    margin-bottom: 10px;
+}
+
+#outros > a > img{
+    width: 30px;
+    padding: 0px 8px;
+}
+
+#outros > p{
+    margin: 10px;
+}
+
+#outros > a{
+    text-decoration: underline;
 }
 
 
